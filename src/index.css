@@ -1,0 +1,58 @@
+@import "tailwindcss";
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.bg-login-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./accset/background_login._pagepng.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+input {
+  outline: none;
+}
+
+.linkColor {
+  color: #435ee5;
+}
+.btn-red {
+  background-color: #e60023;
+}
+.btn-red:hover {
+  background-color: #cc001f;
+}
+.logo-header {
+  background-image: url(./accset/logo/Pinterest-Logo.wine.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.modal_Logo {
+  background-image: url(./accset/logo/pinterest.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text-color {
+  color: #72726c;
+}
+
+.hover_nemu:hover {
+  background-color: #e5e5e5;
+}
+
+.boder-color {
+  border-color: #dadada;
+}
+
+.bg-color {
+  background-color: #e5e5e0;
+}
+.bg-color:hover {
+  background-color: #e1e1e1;
+}
